@@ -138,7 +138,9 @@ INSTALLED_APPS = (
     'djangocms_teaser',
     'djangocms_video',
     'reversion',
-    'my_demo'
+    'my_demo',
+    'media_tree.contrib.cms_plugins',
+    'media_tree.contrib.cms_plugins.media_tree_slideshow'
 )
 
 LANGUAGES = (
